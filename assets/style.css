@@ -1,0 +1,79 @@
+.bgimg-boise {
+    background-image: url(National_Forest_Idaho.jpg);
+    background-size: cover;
+}
+
+.bg-blk {
+    background-color: black;
+}
+
+.bg-grop {
+    background-color: rgba(153, 205, 50, 0.637);
+}
+
+.bg-grn {
+    background-color: yellowgreen;
+}
+
+.wt-1 {
+    color: white;
+}
+
+.rowheight {
+    height: 100vh;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.justify-content-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.nb-1 {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+}
+
+.img-br {
+    border-radius: 50%;
+}
+
+.padding-100 {
+    padding: 100pt;
+}
+
+.ab-1 {
+border-top-style: solid;
+border-bottom-style: solid;
+border-bottom-left-radius: 50pt;
+border-top-right-radius: 50pt;
+border-color: white;
+width: 115pt;
+}
+
+.button-g {
+    background-color: yellowgreen;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50pt;
+}
+
+.html-size-adjust{
+    size: 100pt
+}
