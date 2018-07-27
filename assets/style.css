@@ -11,8 +11,12 @@
     background-color: rgba(153, 205, 50, 0.637);
 }
 
+.bg-ygrn {
+    background-color: green;
+}
+
 .bg-grn {
-    background-color: yellowgreen;
+    background: radial-gradient(green, green, yellowgreen);
 }
 
 .wt-1 {
@@ -21,6 +25,14 @@
 
 .rowheight {
     height: 100vh;
+}
+
+.rowheight-80 {
+    height: 80vh;
+}
+
+.rowheight-20 {
+    height: 20vh;
 }
 
 .justify-content-center {
@@ -34,6 +46,7 @@
 }
 
 .align-items-center {
+    display: flex;
     align-items: center;
 }
 
@@ -51,13 +64,17 @@
     padding: 100pt;
 }
 
+.paddingtop-10 {
+    padding-top: 10pt
+}
+
 .ab-1 {
-border-top-style: solid;
-border-bottom-style: solid;
-border-bottom-left-radius: 50pt;
-border-top-right-radius: 50pt;
-border-color: white;
-width: 115pt;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 50pt;
+    border-top-right-radius: 50pt;
+    border-color: white;
+    width: 115pt;
 }
 
 .button-g {
@@ -66,7 +83,7 @@ width: 115pt;
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none; 
+    text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
@@ -74,6 +91,6 @@ width: 115pt;
     border-radius: 50pt;
 }
 
-.html-size-adjust{
+.html-size-adjust {
     size: 100pt
 }
