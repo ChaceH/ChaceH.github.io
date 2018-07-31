@@ -27,12 +27,20 @@
     height: 100vh;
 }
 
+.rowheight-88 {
+    height: 88vh;
+}
+
 .rowheight-80 {
     height: 80vh;
 }
 
 .rowheight-53 {
     height: 53vh
+}
+
+.rowheight-29 {
+    height: 29vh;
 }
 
 .rowheight-20 {
@@ -49,12 +57,12 @@
     justify-content: space-around;
 }
 
-.justify-content-space-between{
+.justify-content-space-between {
     display: flex;
     justify-content: space-between;
 }
 
-.justify-content-space-evenly{
+.justify-content-space-evenly {
     display: flex;
     justify-content: space-evenly;
 }
@@ -72,6 +80,10 @@
 
 .img-br {
     border-radius: 50%;
+}
+
+.imgsize {
+    size: 10rem;
 }
 
 .padding-100 {
